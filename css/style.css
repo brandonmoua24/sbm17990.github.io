@@ -1,0 +1,151 @@
+body{
+    margin: none;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2E9E4;
+    font-family: monospace;
+    text-align: center;
+    font-size: 20px;
+}
+
+.nav{
+    display: flex;
+    justify-content: right;
+    background-color: #8a817c;
+    padding: 10px 20px 10px 10px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.nav a:hover{
+    color: #F2E9E4;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    width: 99%;
+    background-color: #8a817c;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    margin-top: auto;
+}
+
+.nav a:link{
+    color: #F2E9E4;
+    font-family: 'Franklin Gothic Medium';
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: #F2E9E4;
+}
+
+.footer a:link{
+    color: #9A8C98;
+    font-family: 'Franklin Gothic Medium';
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.intro{
+    background-color: #d5bdaf;
+    color: #ba181b;
+    display: grid;
+    grid-template-columns: 0fr 1fr 0fr;
+    justify-items: center;
+    padding: 20px 20px 20px 20px;
+    margin: 0;
+}
+
+.hr{
+    margin: 0;
+    height: 2px;
+    background-color: black;
+}
+
+.headshot{
+    width: 165px; 
+    height: 200px;
+    border-radius: 1000px 1000px;
+}
+
+.card-photo{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 250px;
+    width: 100%;
+}
+
+.card-form{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    justify-items: center;
+}
+
+.card-content {
+    width: 80%;
+    height: auto;
+    display: flex;
+    border-radius: 20px;
+    background-color: #c9ada7;
+    flex-direction: column;
+    text-align: center;
+    font-size: 15px;
+}
+
+.hr-contact{
+    align-items: center;
+    width: 75%;
+    border-top: 2px dotted black;
+}
+
+li{
+    list-style-type: none;
+}
+
+.email-form{
+    display: grid;
+    grid-template-columns: 2000fr 1fr 30fr;
+    justify-items: center;
+}
+
+.email-content {
+    width: max-content;
+    height: auto;
+    display: flex;
+    border-radius: 20px;
+    background-color: #c9ada7;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 20px 20px 20px;
+}
+
+.contact-footer{
+    display: flex;
+    justify-content: center;
+    width: 99%;
+    background-color: #8a817c;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    bottom: 0;
+}
+
+.contact-footer a:hover{
+    color: #F2E9E4;
+}
+
+.button {
+    width: 100px;
+    font-size: 25px;
+    border-radius: 15px;
+}
+
+input[type="text"] {
+    width: 200px;
+    height: 30px;
+}
